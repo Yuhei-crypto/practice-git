@@ -11,7 +11,7 @@ $products = $product_obj->getAllProducts();
 ?>
 <!DOCTYPE html>
 <html>
-<head><title>Dashboard</title></head>
+<head><title>Dashboard online</title></head>
 <body>
     <h2>Welcome, <?php echo $_SESSION['username']; ?>!</h2>
     <p><a href="logout.php">Logout</a></p>
